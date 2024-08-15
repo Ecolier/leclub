@@ -1,0 +1,21 @@
+version: "3.9"
+
+x-aws-cluster: le-club
+x-aws-vpc: vpc-f1af5599
+
+services:
+
+  app:
+    env_file: .env.production
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost/.well-known/apollo/server-health || exit 1"]
+    image: 052941667971.dkr.ecr.eu-west-3.amazonaws.com/le-club-push:latest
+    command: start:prod
+    ports: 
+      - "80:80"
+
+  redis:
+    image: redis:6.2.5
+    env_file: .env.production
+    ports:
+      - 6379:6379

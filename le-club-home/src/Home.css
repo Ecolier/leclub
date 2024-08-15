@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 512px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  height: 75vh;
+}
+
+.welcome {
+  text-align: center;
+  width: 400px;
+}
+
+.logo {
+  background-image: url('/src/assets/logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: calc(638px / 2);
+  height: calc(381px / 2);
+}
+
+.soon {
+  color: #a2a2ba;
+  border-bottom: solid 3px #1537ff;
+  display: inline-block;
+  height: 1.1em;
+}
+
+.button {
+  border: none;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #1537ff;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}

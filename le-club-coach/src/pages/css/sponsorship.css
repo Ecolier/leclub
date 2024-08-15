@@ -1,0 +1,41 @@
+.code-container {
+  width: inital;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.copy-button {
+  background-color: #5cc9bc;
+  color: white;
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.share-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 40%;
+}
+
+@media screen and (max-width: 425px) {
+  .code-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .copy-button {
+    margin: 1rem 0 0 0;
+  }
+  .share-container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=sponsorship.css.map */

@@ -1,0 +1,30 @@
+{
+  "name": "le-club-notifications",
+  "version": "1.0.0",
+  "description": "Notification service for Le Club",
+  "main": "index.js",
+  "author": "Evan Gruère <evan.gruere@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "ts-node-dev --poll --respawn ./bin/start"
+  },
+  "dependencies": {
+    "@leclub/shared": "git+https://github.com/gabcoh1986/le-club-shared.git",
+    "@types/amqplib": "^0.8.2",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa-router": "^7.4.4",
+    "amqplib": "^0.8.0",
+    "bullmq": "^1.48.2",
+    "debug": "^4.3.2",
+    "koa": "^2.13.3",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}

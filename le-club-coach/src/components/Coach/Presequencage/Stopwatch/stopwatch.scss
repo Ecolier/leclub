@@ -1,0 +1,39 @@
+.Chrono {
+  display: inline-block;
+  background-color: white;
+  border-radius: 3px;
+}
+.Chrono h1 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  font-size: 50px;
+}
+.Chrono h1:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 33px;
+  background: rgba(255, 255, 255, .2);
+}
+
+.Chrono .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Chrono button {
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+  flex: 1
+}
+.Chrono button + button {
+  margin-left: 10px;
+}
+.Chrono button:hover {
+  border-bottom-color: #000;
+}

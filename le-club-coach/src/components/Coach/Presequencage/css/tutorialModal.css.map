@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACxB,MAAM,EAAE,QAAQ;CACjB;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "../TutorialModal/tutorialModal.scss"
+    ],
+    "names": [],
+    "file": "tutorialModal.css"
+}

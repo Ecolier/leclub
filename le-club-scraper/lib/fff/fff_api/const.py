@@ -1,0 +1,6 @@
+SSO = 'https://sso.fff.fr'
+OAUTH_PATH = 'oauth/v2/auth'
+LOGIN_CHECK_PATH = 'oauth/v2/auth_login_check'
+REDIRECT_URI = 'fr.fff.joueur://monespace.fr/oauth'
+OAUTH_ID = '5ba8a214e832e110448b4567_4wvyh54afeo04kkscg4koko08skgg4cgo00ow8c8w4cwgs08gw'
+API_ENDPOINT = 'https://api-joueur.fff.fr'

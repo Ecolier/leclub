@@ -1,0 +1,27 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!bin/
+!build/
+!.next/
+!examples/
+!src/
+!dist/
+!tests/
+!yarn-offline-mirror/
+!.yarnrc
+!babel.config.json
+!next-env.d.ts
+!next.config.js
+!nodemon.json
+!package.json
+!tsconfig.json
+!yarn.lock
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db

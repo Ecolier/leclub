@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;CACd;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,oBAAoB,CAAC;IACnB,UAAU,EAAE,CAAC;IACb,OAAO,EAAE,IAAI;GACd",
+    "sources": [
+        "../Detection/detection.scss"
+    ],
+    "names": [],
+    "file": "detection.css"
+}

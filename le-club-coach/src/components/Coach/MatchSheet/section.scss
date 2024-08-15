@@ -1,0 +1,36 @@
+.b-match-sheet-section {
+
+  display: flex;
+  flex: 1;
+
+  padding: 30px 0;
+  align-items: center;
+  flex-direction: column;
+
+  &-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #ccc;
+  }
+
+  &-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 80px;
+    align-items: center;
+  }
+
+  &-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 425px) {
+    &-inner {
+      padding: 1rem;
+    }
+  }
+}

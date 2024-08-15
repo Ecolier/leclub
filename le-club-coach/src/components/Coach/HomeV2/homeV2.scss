@@ -1,0 +1,143 @@
+
+.leClub-coach-dashboard {
+  padding: 20px;
+  .dashboard_select_container {
+    display: flex;
+  }
+
+  .dashboard_select {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboard_select:first-child {
+    margin-right: 3rem;
+  }
+
+  .dashboard_select p {
+    margin-bottom: 0.5rem;
+  }
+
+  .dashboard_shortcut_button_container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem
+  }
+
+  .dashboard-section {
+    max-width: 100%;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .dashboard-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(#000, .2);
+    color: #555;
+
+    h1 {
+      margin: 0;
+      color: #555;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  }
+
+  .dashboard-inner {
+    padding: 20px 0;
+
+    .ant-row {
+      margin: 10px 0;
+    }
+
+    .add-match-form-item {
+      margin-bottom: 10px;
+      width: 100%;
+
+      .ant-radio-group,
+      .ant-upload,
+      .ant-radio-button-wrapper,
+      .ant-calendar-picker,
+      .ant-select-auto-complete,
+      .ant-input {
+        width: 100%;
+      }
+
+      .ant-radio-group {
+        display: flex;
+        flex: 1;
+      }
+
+      .ant-radio-button-wrapper {
+        text-align: center;
+      }
+    }
+  }
+
+  .ant-carousel ul.slick-dots.slick-dots-bottom li {
+    background: lightgray;
+  }
+
+  .ant-carousel ul.slick-dots.slick-dots-bottom li.slick-active button {
+    background: #EA178C;
+  }
+
+  .tuto_carousel {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+
+  .tutorial_pdf_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slick-next, .slick-prev {
+    font-size: 2rem;
+    color: #EA178C;
+  }
+
+  .slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+  }
+}
+
+
+@media screen and (max-width: 690px) {
+  .dashboard_select_container {
+    flex-direction: column;
+  }
+
+  .dashboard_shortcut_button_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard_shortcut_button_container button {
+    max-width: 194px;
+    margin-bottom: 0.5rem;
+  }
+
+  .ant-select-dropdown-menu-item {
+    white-space: normal;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .leClub-coach-dashboard {
+    padding: 5px;
+  }
+
+  .dashboard_select:first-child {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+
+}

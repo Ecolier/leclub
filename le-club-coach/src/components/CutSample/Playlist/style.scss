@@ -1,0 +1,78 @@
+.b-cut-playlist {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  background: #181818;
+  color: white;
+  overflow-y: auto;
+}
+
+.b-cut-playlist-item {
+  display: flex;
+  flex-direction: column;
+  background: #222;
+  padding: 20px;
+  border-bottom: 2px solid #444;
+  cursor: pointer;
+  word-break: break-all;
+}
+
+.b-cut-playlist-item-thumb {
+  width: 90px;
+  align-self: center;
+}
+
+.b-cut-playlist-item-themes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.b-cut-playlist-item-themes > * {
+  font-size: 10px;
+  padding: 5px;
+  margin: 5px 5px 0 0;
+}
+
+.b-cut-playlist-item-title {
+  font-weight: 500;
+}
+
+.b-cut-playlist-item-desc {
+  font-size: 12px;
+}
+
+.b-cut-playlist-no-item {
+  position: absolute;
+
+  text-align: center;
+  font-size: 14px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.b-cut-playlist-header {
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .08em;
+  text-align: center;
+}
+
+.b-cut-playlist-header-action {
+  padding: 0 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.b-cut-playlist-items {
+  position: relative;
+  flex: 1;
+}
+
+.b-cut-playlist-items-container {
+}

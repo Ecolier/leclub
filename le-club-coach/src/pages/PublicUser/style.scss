@@ -1,0 +1,92 @@
+.ant-tabs {
+  &-nav {
+    display: flex;
+
+    .ant-tabs-tab {
+      flex-grow: 1;
+      margin-right: 0px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.players-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.players_cards_container {
+  padding: 0;
+}
+
+.player_card {
+  height: 320px;
+  width: 425px;
+  margin: 1.5rem;
+}
+
+.player_infos_container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px 0px;
+}
+
+.player_infos_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.player_infos_avatar {
+  height: 180px !important;
+  margin-top: -200px !important;
+  width: 180px !important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.player_infos_personal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+.player_stats_container {
+  padding: 40px;
+}
+
+
+@media screen and (max-width: 425px) {
+
+  .players_cards_container {
+    padding: 0 20px;
+  }
+
+  .player_card {
+    max-height: initial;
+  }
+
+  .player_infos_content {
+    flex-direction: column;
+  }
+
+  .player_infos_avatar {
+    margin-top: -100px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .player_infos_personal {
+    width: initial;
+    font-size: 0.9rem;
+  }
+
+  .player_stats_container {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "name": "le-club-web",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/server/main.js",
+  "dependencies": {
+    "@storeon/router": "^2.0.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@uppy/aws-s3-multipart": "^2.0.3",
+    "@uppy/companion-client": "^2.0.1",
+    "@uppy/core": "^2.0.3",
+    "@uppy/utils": "^4.0.1",
+    "antd": "^4.16.13",
+    "aws": "^0.0.3-2",
+    "babel-plugin-import": "^1.13.3",
+    "chart.js": "^3.5.1",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^6.3.0",
+    "evaporate": "^2.1.4",
+    "formik": "^2.2.9",
+    "i18n-js": "^3.8.0",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "konva": "^8.1.4",
+    "ky": "^0.28.5",
+    "less": "^4.1.1",
+    "less-loader": "^6.0.0",
+    "moment-duration-format": "^2.3.2",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "oauth-pkce": "^0.0.6",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.5",
+    "react-color": "^2.19.3",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-konva": "^17.0.2-5",
+    "react-pdf": "^5.3.2",
+    "react-responsive": "^9.0.0-beta.4",
+    "react-scripts": "4.0.3",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.28.1",
+    "react-stripe-elements": "^6.1.2",
+    "sass": "^1.41.1",
+    "sass-loader": "^12.1.0",
+    "screenfull": "^5.1.0",
+    "spark-md5": "^3.0.2",
+    "storeon": "^3.1.4",
+    "stream": "^0.0.2",
+    "style-loader": "^3.2.1",
+    "superagent": "^6.1.0",
+    "web-vitals": "^1.0.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve:prod": "yarn serve -s build -l 80"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-syntax-dynamic-import",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-export-default-from",
+      [
+        "@babel/plugin-transform-runtime",
+        {
+          "regenerator": true
+        }
+      ]
+    ],
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "interpolate-html-plugin": "^4.0.0",
+    "less-vars-to-js": "^1.3.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "workbox-webpack-plugin": "^6.3.0"
+  }
+}

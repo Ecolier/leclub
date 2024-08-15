@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const { getEnvironment } = require('@leclub/shared');
+const debug = require('debug')('leclub:push')
+
+const NODE_ENV = getEnvironment('NODE_ENV', 'production');
+
+const srcDir = NODE_ENV === 'development' ? '../src' : '../dist';
+const { createApplication } = require(`${srcDir}/application`);
+
+debug(`Starting push service in ${NODE_ENV} mode.`);
+
+const LCB_NOTIFICATION_APP_HOST = getEnvironment('LCB_NOTIFICATION_APP_HOST', '0.0.0.0');
+const LCB_NOTIFICATION_APP_PORT = getEnvironment('LCB_NOTIFICATION_APP_PORT', '8080');
+
+createApplication({ env: NODE_ENV }).then(startApplication => {
+  startApplication(LCB_NOTIFICATION_APP_PORT, LCB_NOTIFICATION_APP_HOST).then(() => {
+    debug(`Push service running on ${LCB_NOTIFICATION_APP_HOST}:${LCB_NOTIFICATION_APP_PORT}`);
+  });
+});

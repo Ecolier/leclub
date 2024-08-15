@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEG,AAAD,wBAAU,AAAC,CACT,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,IAAI,CAChB",
+    "sources": [
+        "../MatchSheet/medias.scss"
+    ],
+    "names": [],
+    "file": "medias.min.css"
+}

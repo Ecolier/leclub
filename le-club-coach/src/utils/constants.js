@@ -1,0 +1,6 @@
+export const CATEGORY = ['Senior Libre', 'U19-18 Libre', 'U17-U16 Libre', 'U15-14 Libre', 'U13-12 Libre', 'Feminines']
+export const LEVEL = ['NATIONAL', 'REGIONAL', 'DEPARTEMENTAL']
+export const POSITION = ['GARDIEN', 'DEFENSEUR GAUCHE', 'DEFENSEUR CENTRALE', 'DEFENSEUR DROIT', 'MILLIEU DEFENSIF', 'MILLIEU GAUCHE', 'MILLIEU AXIAL', 'MILLIEU DROIT', 'MILLIEU OFFENSIVE', 'AILIER GAUCHE', 'AILIER DROIT', 'ATTAQUANT AXIAL']
+// export const DIVISION = ['A', 'B', 'C']
+export const FORMATION = ['3-4-3', '3-5-2', '3-1-4-2', '4-4-2 à plat', '4-4-2 losange', '4-3-3', '4-2-3-1', '4-1-4-1', '4-5-1', '5-3-2', '5-4-1']
+export const TYPE = ['TITRE', 'COMMENTAIRE', 'JOUEUR']

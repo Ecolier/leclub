@@ -1,0 +1,26 @@
+{
+  "name": "le-club-shared",
+  "version": "1.0.0",
+  "description": "Shared tools for le-club",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*", "src/**/*"],
+  "author": "Evan Gruère <evan.gruere@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "yarn tsc"
+  },
+  "dependencies": {
+    "debug": "^4.3.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.174",
+    "@types/debug": "^4.1.7",
+    "@types/node": "^16.10.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.3"
+  }
+}

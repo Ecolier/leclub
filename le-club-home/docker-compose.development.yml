@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+
+  web:
+    environment:
+      REACT_APP_IDP_BASE_URL: https://accounts.leclub.football
+      REACT_APP_IDP_REDIRECT_URI: https://leclub.football
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost || exit 1"]
+    volumes: 
+      - ./src:/usr/home/leclub/src
+    build: 
+      context: .
+      dockerfile: Dockerfile.development
+    command: start
+    ports: 
+      - "3000:3000"

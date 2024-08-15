@@ -1,0 +1,76 @@
+.mobile-badges > * {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  height: 46px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  padding: 40px 80px;
+
+  color: white;
+  background: black;
+
+  a {
+    color: white;
+  }
+
+  .mobile-app {
+    margin-top: 20px;
+  }
+
+  .mobile-app-name {
+    margin-bottom: 12px;
+    text-align: center;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .mobile-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .leClub-logo {
+    margin-top: 5px;
+  }
+
+  .footer-side > * {
+    margin: 0 20px;
+  }
+
+  .footer-side {
+    display: flex;
+    flex-wrap: wrap;
+
+    .b-navigation {
+      flex-wrap: wrap;
+    }
+  }
+
+  .b-navigation-item {
+    padding-right: 30px;
+  }
+
+  .b-navigation-item a {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .b-navigation-items-inner {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin-top: 5px;
+      font-size: 11px !important;
+      font-weight: normal !important;
+    }
+  }
+}

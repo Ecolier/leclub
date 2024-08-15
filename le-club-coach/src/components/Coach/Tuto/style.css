@@ -1,0 +1,32 @@
+.materielHelpContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.materielHelpSection {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+}
+@media screen and (max-width: 425px) {
+
+  .materielHelpContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .materielHelpSection {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  }
+}

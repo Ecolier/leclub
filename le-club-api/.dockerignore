@@ -1,0 +1,19 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!yarn-offline-mirror/
+!src/
+!dist/
+!bin/
+!package.json
+!tsconfig.json
+!yarn.lock
+!.yarnrc
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db

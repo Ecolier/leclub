@@ -1,0 +1,149 @@
+.pricing-button {
+  background-color: #EA178C;
+  border: 1px solid #EA178C;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px !important;
+  font-weight: 500;
+  padding: 16px 24px;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: 32px;
+  width: 100%;
+  height: 55px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.pricing-button:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.pricing-question {
+  display: flex;
+}
+
+.pricing-question i {
+  width: 30px;
+  padding-left: 0;
+  transition: padding-left 500ms;
+}
+
+.pricing-question:hover i {
+  padding-left: 10px;
+}
+
+.noBackgroundTabs {
+  width: 15vw !important;
+  min-width: 15vw !important;
+  max-width: 15vw !important;
+}
+
+.backgroundTabs {
+  width: 15vw !important;
+  min-width: 15vw !important;
+  max-width: 15vw !important;
+  background-color: #032f62;
+}
+
+.offer_page_container {
+  padding: 50px;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.offer_container {
+  display: flex;
+}
+
+.offer_content_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  background-clip: padding-box;
+  box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
+  padding: 48px;
+  background-color: white;
+  border-radius: 6px;
+  color: black;
+}
+
+.offer_description {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 1px;
+  text-align: center;
+  height: 220px;
+}
+
+.empty_cell {
+  width: 50%;
+  border: solid 0.5px rgba(88, 96, 105, 0.3);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-right: solid 0.5px white;
+}
+
+.formula_cell_container {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 565px) {
+  .offer_page_container {
+    padding: 25px;
+  }
+  .offer_container {
+    flex-direction: column;
+  }
+  .offer_content_container {
+    padding: 24px;
+  }
+  .offer_description {
+    height: initial;
+  }
+  .empty_cell {
+    display: none;
+  }
+  .formula_cell_container {
+    flex-direction: column;
+  }
+  .noBackgroundTabs {
+    width: initial !important;
+    max-width: initial !important;
+    min-width: initial !important;
+  }
+}
+
+.option_title {
+  text-align: center;
+  font-size: 40px;
+  margin: 1rem;
+}
+
+.option_description {
+  text-align: center;
+  color: #586069;
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .option_title {
+    font-size: 25px;
+  }
+  .option_description {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

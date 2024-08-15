@@ -1,0 +1,2 @@
+.header{display:none}.faq-content{width:70%;margin:20px auto}.centered-image{position:relative;left:50%;transform:translateX(-50%);margin-top:20px}@media screen and (max-width: 800px){.header{position:fixed;top:0;width:100%;display:flex;align-items:center;padding:1rem;border-bottom:1px solid rgba(0,0,0,0.15);background-color:#fff;z-index:3}.header h1{margin:0 0 0 0.75rem}.faq-content{margin-top:5rem}}
+/*# sourceMappingURL=faq.min.css.map */

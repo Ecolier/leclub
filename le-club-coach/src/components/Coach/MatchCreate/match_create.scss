@@ -1,0 +1,9 @@
+.match_create_button {
+  width: initial;
+}
+
+@media screen and (max-width: 425px) {
+  .match_create_button {
+    width: 100%
+  }
+}

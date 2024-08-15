@@ -1,0 +1,10 @@
+.training_card {
+  min-width: 300px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .training_card {
+    margin: initial;
+  }
+}

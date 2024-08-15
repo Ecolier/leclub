@@ -1,0 +1,44 @@
+version: "3.9"
+
+services:
+
+  application:
+    build:
+      context: .
+      args:
+        GITHUB_TOKEN: ${GITHUB_TOKEN}
+    command: watch
+    env_file: .env.local
+    volumes: 
+      - ./src:/usr/home/leclub/src
+      - ./bin:/usr/home/leclub/bin
+    networks: 
+      - le-club-api_network
+    ports: 
+      - "8082:8082"
+
+  message_queue:
+    env_file: .env.local
+    image: rabbitmq:3.9.7
+    ports:
+      - 5672:5672
+    networks:
+      - le-club-api_network
+    restart: always
+
+  database:
+    env_file:
+      - .env.local
+    image: mongo:5.0.2
+    networks:
+      - le-club-api_network
+    ports:
+      - "27018:27017"
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${LCB_NOTIFICATION_DATABASE_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${LCB_NOTIFICATION_DATABASE_PASSWORD}
+
+networks:
+  le-club-api_network:
+    external: true

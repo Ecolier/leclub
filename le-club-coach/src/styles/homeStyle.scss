@@ -1,0 +1,410 @@
+@import "./src/variables/variables.scss";
+
+@keyframes enter {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.not-discovered {
+  opacity: 0;
+}
+
+.discovered {
+  animation: enter .5s ease-in;
+}
+
+.home-start-section {
+  padding: 40px 0 60px 0;
+  background: #111;
+
+  font-family: Roboto;
+  color: white;
+  font-weight: 500;
+
+  .section-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .b-button {
+    border-radius: 3px ;
+    background: #EA178C;
+  }
+
+  .start-section-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+}
+
+.leClub-stats {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100vw;
+  padding: 70px 0;
+
+  .stat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+
+    .stat-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .stat-nb {
+      color: #2CC1EB;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .stat-label {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.leClub-users {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: 800px;
+  width: 100vw;
+  padding-bottom: 70px;
+}
+
+.leClub-users {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.home-banner {
+  position: relative;
+  z-index: 0;
+  margin-top: -280px;
+  overflow: hidden;
+  min-height: 600px;
+  max-height: calc(100vw / (16/9));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.home-video {
+  position: relative;
+}
+
+@media screen and (min-width: 1600px) {
+  .home-video {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.home-video-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+
+  text-align: center;
+  color: white;
+  background: linear-gradient(0deg, rgba(black, 0.8), transparent),
+              linear-gradient(rgba(black, 0.8) 0%, transparent 50%);
+  padding-bottom: 80px;
+}
+
+.home-video-overlay h1 {
+  color: white;
+}
+
+.b-button {
+  height: 50px;
+  min-width: 100px;
+  background: #EA178C;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  font-family: Roboto;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  padding: 0 20px;
+}
+
+.b-button:hover {
+  box-shadow: 0px 0px 20px rgba(black, .2);
+}
+
+.b-button--small {
+  border-radius: 3px;
+  font-size: 13px;
+  height: 36px;
+  min-width: 160px;
+}
+
+.b-button--primary {
+  border-radius: 3px;
+  background: $electric-blue !important;
+}
+
+.b-button--secondary {
+  border-radius: 3px;
+  background: $light-grey;
+  color: $electric-blue;
+  font-weight: bold;
+}
+
+.inner-overlay {
+  width: 800px;
+  animation: enter 1s ease-in;
+}
+
+.home-banner-desc {
+  margin: 30px 0;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+
+  div {
+    margin: 10px 0;
+  }
+}
+
+.home-banner-title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  padding: 60px 0;
+  background: white;
+}
+
+.section-separator {
+  height: 8px;
+  width: 100px;
+  align-self: center;
+  margin-top: 5px;
+  background: #EA178C;
+}
+
+.home-section:nth-child(even) {
+  background: #F9F9F9;
+  .b-button,
+  .section-separator {
+    background: #2CC1EB;
+  }
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-community-word {
+  max-width: 650px;
+  color: #565656;
+
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+}
+
+.community-quotes {
+  padding: 0 20px;
+  display: flex;
+  max-width: 1000px;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.quote-content {
+  max-width: 425px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  color: #3F3F3F;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+}
+
+.quote:nth-child(even) {
+  .quote-author-type,
+  .quote-big-quote {
+    color: #2CC1EB;
+  }
+
+  .quote-author-separator {
+    background: #2CC1EB;
+  }
+}
+
+.quote-author {
+  display: flex;
+  flex-direction: column;
+
+  align-self: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.quote-author-separator {
+  width: 20px;
+  height: 4px;
+  background: #EA178C;
+  margin: 5px 0;
+}
+
+.quote-author-type {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+
+  color: #EA178C;
+}
+
+.quote-author-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #000000;
+}
+
+.quote-big-quote {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 64px;
+
+  color: #EA178C;
+  margin-top: -40px;
+  padding-right: 10px;
+}
+
+.products-media > img {
+  max-width: 960px;
+  padding: 0 40px;
+  width: 100vw;
+}
+
+.products-media {
+  padding-bottom: 40px;
+}
+
+.product {
+
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
+
+  .product-label {
+    flex: 1;
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .product-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    background: #ccc;
+  }
+}
+
+.leClub-logo {
+  background-image: url('/src/assets/logo.png');
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .home-video-overlay {
+    padding-bottom: 30px;
+  }
+
+  .home-banner {
+    margin-top: -170px;
+  }
+
+  .inner-overlay {
+    padding: 0 10px;
+  }
+
+  .home-section {
+    padding: 10px;
+  }
+
+  .home-start-section {
+    padding: 40px 10px;
+  }
+
+  .quote-big-quote {
+    font-size: 40px;
+  }
+
+  .community-quotes {
+    padding: 0 10px;
+  }
+}

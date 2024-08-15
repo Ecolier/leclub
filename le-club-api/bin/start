@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const { getEnvironment } = require('@leclub/shared');
+
+const NODE_ENV = getEnvironment('NODE_ENV', 'production');
+
+const srcDir = NODE_ENV === 'development' ? '../src' : '../dist';
+const { createApplication } = require(`${srcDir}/application`);
+const { logger } = require(`${srcDir}/logger`);
+
+logger.info(`Starting API server in ${NODE_ENV} mode.`);
+
+const LCB_API_APP_HOST = getEnvironment('LCB_API_APP_HOST', '0.0.0.0');
+const LCB_API_APP_PORT = getEnvironment('LCB_API_APP_PORT', '8080');
+
+const startApplication = createApplication({ env: NODE_ENV, logger });
+startApplication(LCB_API_APP_PORT, LCB_API_APP_HOST).then(() => {
+  logger.info(`Application running on ${LCB_API_APP_HOST}:${LCB_API_APP_PORT}`);
+});

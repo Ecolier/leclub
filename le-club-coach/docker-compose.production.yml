@@ -1,0 +1,16 @@
+version: "3.9"
+
+x-aws-cluster: le-club
+x-aws-vpc: vpc-f1af5599
+
+services:
+
+  app:
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost || exit 1"]
+    build: 
+      context: .
+      dockerfile: Dockerfile.production
+    command: serve:prod
+    ports: 
+      - "80:80"

@@ -1,0 +1,94 @@
+.media-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(250, 250, 250, .9);
+  z-index: 10000;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+
+.media-modal-overlay .leClub-player {
+  flex: 1;
+}
+
+.media-modal-meta {
+  align-self: flex-start;
+  padding-left: 20px;
+  max-width: 500px;
+}
+
+.media-modal-title {
+  font-size: 22px;
+}
+
+.media-modal-desc {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+ .media-modal-inner {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.media-modal-preview {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 425px) {
+  .media-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(250, 250, 250, 1);
+    z-index: 10000;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+   .media-modal-overlay .leClub-player { }
+  .media-modal-meta {
+    align-self: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  .media-modal-title {
+    font-size: 15px;
+  }
+
+  .media-modal-desc {
+    padding: 20px 0;
+    font-size: 18px;
+  }
+
+  .media-modal-inner {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .media-modal-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

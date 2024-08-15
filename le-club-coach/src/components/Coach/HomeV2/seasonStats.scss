@@ -1,0 +1,52 @@
+.statistic_card_container {
+  background: white;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  margin: 0.5rem 0;
+}
+
+.statistic_number {
+  font-size: 5rem;
+}
+
+.statistic_title {
+  border-top: 1px solid #e8e8e8;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.statistic_title p {
+  margin: 0;
+}
+
+#graphic_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#graphic_container .ant-card {
+  width: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+  #graphic_container {
+    flex-direction: column;
+  }
+
+  .statistic_number {
+    font-size: 3rem;
+  }
+
+  #graphic_container .ant-card {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

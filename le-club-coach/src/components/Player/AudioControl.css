@@ -1,0 +1,32 @@
+.player-audio-control-volumebar {
+  position: relative;
+
+  height: 4px;
+  background: rgba(255, 255, 255, .3);
+  animation: player-volume-bar-leave .1s;
+}
+
+.player-audio-control:hover .player-audio-control-volumebar {
+  display: inherit;
+  width: 75px;
+
+  animation: player-volume-bar-enter .3s;
+}
+
+@keyframes player-volume-bar-enter {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 75px;
+  }
+}
+
+@keyframes player-volume-bar-leave {
+  0% {
+    width: 75px;
+  }
+  100% {
+    width: 0px;
+  }
+}

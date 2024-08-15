@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEE,aAFW,CAEX,wBAAwB,AAAC,CACvB,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,aAAa,CAC9B,QAAQ,CAAE,IAAI,CACd,KAAK,CAAE,IAAI,CACZ,AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EATrC,AAUI,aAVS,CAUT,wBAAwB,AAAC,CACvB,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,IAAI,CACd,eAAe,CAAE,MAAM,CACvB,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,IAAI,CAChB",
+    "sources": [
+        "../HomeV2/lastMatches.scss"
+    ],
+    "names": [],
+    "file": "lastMatches.min.css"
+}

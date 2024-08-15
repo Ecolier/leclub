@@ -1,0 +1,25 @@
+.signup-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter .3s;
+}
+
+.signup-card:hover {
+  filter: grayscale(0);
+}
+
+.signup-card-title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .5px;
+  font-size: 28px;
+  position: absolute;
+  bottom: 120px;
+}
+/*# sourceMappingURL=newSinginIn.css.map */

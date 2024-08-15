@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+
+  app:
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost || exit 1"]
+    volumes: 
+      - ./src:/usr/home/leclub/src
+    build: 
+      context: .
+      dockerfile: Dockerfile.development
+    command: start
+    ports: 
+      - "3000:8080"

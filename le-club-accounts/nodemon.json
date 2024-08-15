@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "pages"],
+  "ext": "ts,json,tsx,css",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "babel-node --extensions '.ts,.tsx,.scss' ./bin/start"
+}

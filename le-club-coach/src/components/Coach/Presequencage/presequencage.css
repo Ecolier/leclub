@@ -1,0 +1,11 @@
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.tutorial-popup-button {
+  position: absolute;
+  right: 10px;
+  top: 55px;
+  font-size: 1.3rem;
+}

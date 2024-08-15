@@ -1,0 +1,58 @@
+.ant-menu {
+  line-height: initial;
+}
+
+.hidden {
+  flex: 0 0 0 !important;
+  min-width: 0 !important;
+  max-width: 0 !important;
+  width: 0 !important;
+  overflow: hidden;
+}
+
+.visible {
+  flex: 0 0 200px;
+  max-width: 200px;
+  min-width: 200px;
+  width: 200px;
+}
+
+.hidden_layout {
+  height: 0;
+}
+
+.logo_container {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  background: #fcfcfc;
+  z-index: 15;
+}
+
+.mobile_layout_container {
+  margin-top: 47px;
+}
+
+@media screen and (max-width: 425px) {
+  .visible {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    height: 100vh;
+  }
+  .logo_container {
+    padding: 1rem 2rem;
+    justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=coach_page.css.map */

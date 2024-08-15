@@ -1,0 +1,49 @@
+.cut-editor-form {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cut-editor-form button {
+  margin-right: 20px;
+}
+
+.cut-editor-form-left {
+  flex: 1;
+}
+
+.cut-editor-form-right {
+  flex: 1;
+  max-width: 320px;
+}
+
+.cut-editor-field {
+  margin-bottom: 20px;
+}
+
+.cut-btn-bottom {
+  height: fit-content;
+  background-color: #313a45;
+  border-color: #313a45;
+  transition: border 1s, background 1s;
+  padding: .75rem 1.25rem;
+  border-radius: .25rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cut-btn-bottom-valide:hover {
+  background-color: #2CC1EB;
+  border-color: #2CC1EB;
+}
+
+.cut-btn-bottom-redo:hover {
+  background-color: #454e59;
+  border-color: #454e59;
+}
+
+.cut-btn-bottom-undo:hover {
+  background-color: #454e59;
+  border-color: #454e59;
+}
+/*# sourceMappingURL=form.css.map */

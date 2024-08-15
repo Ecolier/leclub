@@ -1,0 +1,1376 @@
+{
+	"LeClubLegalMention": "Website Legal notices www.teamballinfc.com",
+	"ClubAutoComplete": {
+		"clubName": "Club Name",
+		"error": "Club no found",
+		"placeholder": "Select a club"
+	},
+	"Common_word": {
+		"500ErrorMessage": "Server is not responding. Check your Internet or try again in 1-2 minutes",
+		"about": "About",
+		"action": "Action",
+		"activate": "Activate",
+		"activateAccount": "Activate your account",
+		"add": "Add",
+		"addInfo": "Add information",
+		"add_photo": "Add a picture",
+		"add_players": "Add players",
+		"add_video": "Add a video",
+		"address": "Address",
+		"against": "Vs.",
+		"all": "all",
+		"analyse": "Analyze",
+		"analysis": "analysis",
+		"ascending": "ASC",
+		"assists": "Assist",
+		"at": "At",
+		"average_rating": "Average rating",
+		"awayTeam": "Away team",
+		"back": "Back",
+		"basic": "Basic",
+		"bio": "Biography",
+		"born": "Born",
+		"cancel": "Cancel",
+		"championship": "Championship",
+		"choose_team": "Choose your team",
+		"city": "City",
+		"clickToClose": "Click here to close",
+		"club": "Club",
+		"clubNotFound": "Team not found",
+		"club_photos": "Photo Gallery",
+		"coach": "Coach",
+		"coachGreetings": "Glad you come back coach ",
+		"code": "Code",
+		"color": "Color",
+		"commentary": "feedback",
+		"confirmPassword": "Please confirm your password",
+		"copy": "Copied code",
+		"coverImage": "Cover Picture",
+		"create": "Create",
+		"creating": "Creating",
+		"credit_card": "Credit card",
+		"cup": "Cup",
+		"date": "Date",
+		"day": "Day",
+		"defeat": "Defeat",
+		"delete": "Delete",
+		"desactivate": "deactivate",
+		"descending": "DESC",
+		"description": "Description",
+		"disclaimer": "This action is final",
+		"discount": "Discount",
+		"download": "Download",
+		"draw": "Draw",
+		"drawings": "Drawings",
+		"duration": "Duration",
+		"edit": "Edit",
+		"edit_video": "Index a video",
+		"editing": "Editing",
+		"email": "Email",
+		"emailSend": "Email sent",
+		"end": "End",
+		"ending_soon": "Ending soon",
+		"error": "Error",
+		"filmed_match": "Filmed game !",
+		"firstname": "First Name",
+		"football": "Football",
+		"forgotPassword": "Forgotten password",
+		"form": "Form",
+		"friendly": "Friendly",
+		"general": "General",
+		"goal": "Goal",
+		"highlight": "Highlight ",
+		"homeTeam": "Home team",
+		"incoming": "Incoming",
+		"infos_updated": "Updated information",
+		"invoice": "Invoice",
+		"last_team": "Previous teams",
+		"league": "League",
+		"learn_more": "Learn more about",
+		"legalMentions": "Legal notice",
+		"confidentialityPolicies": "Confidentiality policies",
+		"link": "Link",
+		"location": "Location",
+		"lock": "Lock",
+		"matchPlayed": "Match played",
+		"match_type": "Type of game",
+		"minutes": "minutes",
+		"modify": "Modify",
+		"month": "months",
+		"monthly": "Per month",
+		"more_about_leClub": "more about LeClub",
+		"more_info": "additional information",
+		"my_matches": "My games",
+		"my_players": "My players",
+		"my_team": "My team",
+		"my_trainings": "My training",
+		"name": "Name",
+		"newPassword": "New password",
+		"next": "Next",
+		"no": "No",
+		"noClub": "No club",
+		"noTeam": "No Team",
+		"noVideo": "No video available",
+		"no_player_found": "No players found",
+		"no_rating": "No rating",
+		"no_team": "No team yet",
+		"no_team_available": "No team available",
+		"notRegister": "Not registered",
+		"number": "Number",
+		"offers": "Offers",
+		"oldPassword": "Old password",
+		"on": "on",
+		"other": "Other",
+		"page": "Page",
+		"palmares": "Prize List",
+		"password": "Password",
+		"philo": "Philosophy",
+		"phone_number": "Phone Number",
+		"played_matches": "Played games",
+		"playerNum": "Player number",
+		"player_app": "Player app",
+		"player_name": "Player name",
+		"players": "Player",
+		"playlist": "Playlist",
+		"position": "Position",
+		"premium": "Premium",
+		"presequencage": "live indexing",
+		"previous": "Previous",
+		"private": "private",
+		"private_infos": "Private information",
+		"profilePicture": "Profile picture ",
+		"public": "public",
+		"public_infos": "Public information",
+		"questions": "Questions",
+		"rating": "Rating",
+		"refused": "Declined",
+		"required": "Required",
+		"reset": "RESET",
+		"save": "Save",
+		"score": "Result",
+		"season": "Season",
+		"seasonally": "Per season",
+		"secondes": "Seconds",
+		"send_to_coach": "Send to a coach",
+		"send_to_player": "Send to a player",
+		"send_to_technical_director": "Send to the technical director",
+		"serverError": "Server error",
+		"settings_saved": "Settings saved",
+		"share": "share",
+		"sheet_updated": "Seet updated ",
+		"show": "Display",
+		"snapchat": "Snapchat",
+		"sortBy": "Sort by",
+		"start": "START",
+		"statistics": "Statistics",
+		"status": "Status",
+		"stop": "STOP",
+		"subscription": "Subscription",
+		"successfulLogout": "Logout successful",
+		"tags": "Tags",
+		"team": "Team",
+		"teams": "Teams",
+		"the_button": "the button",
+		"theme": "Categories",
+		"time": "Time",
+		"title": "Title",
+		"total": "Total",
+		"unknown": "Unknown",
+		"unlimited": "Unlimited",
+		"unsubscribe": "Unsubscribe",
+		"update": "Update",
+		"validated": "Validated",
+		"validation": "Validation",
+		"victory": "Victory",
+		"waiting": "Pending",
+		"warning": "Warning",
+		"yes": "Yes",
+		"yourEmail": "Your email",
+		"yourTitle": "Your Title",
+		"zip_code": "Zip code",
+		"themes": "Themes"
+
+	},
+	"CutSample": {
+		"clipCreation": "Clip creation",
+		"cutDescription": "Describe your clip to your players",
+		"submitButton": "Create a clip",
+		"tryThemes": {
+			"defensiveCPA": "FREE-KICK DEF",
+			"defensivePhase": "DEFENSIVE PHASE",
+			"off/defTransition": "TRANSITION DEF/OFF",
+			"offensiveCPA": "FREE-KICK OFF",
+			"offensivePhase": "OFFENSIVE PHASE"
+		},
+		"updateClip": {
+			"cancelChanges": "Cancel modifications",
+			"commentaryError": "Comment is mandatory",
+			"editAt": "Index at",
+			"forDuration": "for a duration of",
+			"noTags": "No tag yet? Create your tags in the Preference section",
+			"ofTheVideo": "of the video",
+			"saveChanges": "Save modifications",
+			"savingChanges": "Save modifications",
+			"showAt": "Appears at",
+			"tagList": "Tag a list",
+			"tagPlayers": "Tag an additional player",
+			"titleError": "Title is mandatory"
+		}
+	},
+	"Detection": {
+		"created": {
+			"description": "Your trial has been created, our team will validate it shortly.",
+			"title": "Trial created"
+		},
+		"date": "Trial date",
+		"delete": {
+			"confirm": "Are you sure you want to delete this trial ?",
+			"success": "Trial successfully deleted"
+		},
+		"media": "Select a media",
+		"modify": "Trial modified ",
+		"new": "New trial",
+		"noPlayers": "There is no player in this trial",
+		"subscribeDate": "Registration date"
+	},
+	"FAQ": {
+		"aboutUs": {
+			"Q1": {
+				"answer": "A team of enthusiasts with 30 years of experience in the sport: Thibaut, Blondy, Henri, Yannis, Andre, Hamza, Juliano, Alioune, Simon and Victor.",
+				"question": "Who are the founders of LECLUB ?"
+			},
+			"Q2": {
+				"answer": "Over 2,000,000 in France! These are all the players, coaches, and volunteers who give us daily feedback and allow us to improve our product !",
+				"question": "How many people work today at LECLUB ?"
+			},
+			"Q3": {
+				"answer": "After a meeting with a foreign recruiter who did not know the names of the players he was observing, we spent more than a year on the amateur fields to understand what were the needs of the different players (amateur clubs, coaches, players, professional clubs and recruiters). So we can say that this idea is that of the amateur world who wants to professionalize.",
+				"question": "How did you start LECLUB ?"
+			},
+			"Q4": {
+				"answer": "Since June 2018.",
+				"question": "How long has LECLUB existed ?"
+			},
+			"Q5": {
+				"answer_first_part": "We are based at Station F in the 13th district of Paris, a great ecosystem for meeting our technological challenges.",
+				"answer_second_part": "We are the first to invest, as soon as we can, in their programs, in particular the FIGHTER program\" which makes entrepreneurship accessible to anyone",
+				"question": "Where are you located ?"
+			},
+			"Q6": {
+				"question": "What are LECLUB's values ?",
+				"value_n1_first_part": "Collective",
+				"value_n1_second_part": "Team first",
+				"value_n2_first_part": "Transparency",
+				"value_n2_second_part": "Honesty for building in the long run",
+				"value_n3_first_part": "To put technology to work for you",
+				"value_n3_second_part": "“Tech for good”, easy-to-use technologies that save time and create opportunities for our users",
+				"value_n4_first_part": "Social Impact",
+				"value_n4_second_part": "serve the community and enhance individuals"
+			},
+			"moreQuestion": "DID NOT YOU FIND YOUR ANWSER ?",
+			"title": "About us"
+		},
+		"leClubExplanation": {
+			"Q1": {
+				"answer": "LECLUB is a sportech startup specializing in data and video for football. We develop online software for coaches and clubs to facilitate video processing, sharing, and analysis. We are also developing a career management application for young players, also focused on video.",
+				"question": "What is LECLUB ?"
+			},
+			"Q10": {
+				"answer": "It's up to you to do your indexing  from the LeClub web platform. You can also use the LECLUB COACH app to automatically index your game ;)",
+				"question": "Do you index my game ?"
+			},
+			"Q11": {
+				"answer": [
+					"To film, you don't need an internet connection.",
+					"To put your game online and use our platform, you must be connected to the internet. When you’ve finished your work, you can download some footage to use it during a pre-game brief."
+				],
+				"question": "Do I need an internet connection ?"
+			},
+			"Q12": {
+				"answer": "Upload time depends on your internet speed. A game is usually 2go. With a “decent speed”, it generally takes less than 30 minutes.",
+				"question": "How long does it take to put the video on the site ?"
+			},
+			"Q13": {
+				"answer": "It's up to you ! You can choose to put your game in public or in private mode. Public mode, everyone can see your game and you increase your chances of attracting sponsors. Private mode, you choose who has access to your game (other coaches, your players, etc.).",
+				"question": "Who has access to the video ?"
+			},
+			"Q14": {
+				"answer": "Yes for PREMIUM, COACH and CLUB plans.",
+				"question": "Can I download the match or the sequences ?"
+			},
+			"Q15": {
+				"answer": "Our plans do not include live streaming but it is possible to have live streaming, contact us for more information",
+				"question": "Do you offer live streaming ?"
+			},
+			"Q16": {
+				"answer": "Our basic formulas do not provide live streaming or half-time highlights, contact us at team@leClub.co for more information.",
+				"question": "Can I watch the video at half time ?"
+			},
+			"Q17": {
+				"answer": "Yes, it is possible to create several clips and assemble them in a “playlist”. You can then download your playlist.",
+				"question": "Can I combine different clip into a single video ?"
+			},
+			"Q18": {
+				"answer": "Of course, the BASIC and PREMIUM plans are made for you !",
+				"question": "I already have my equipment, can I just use your platform ?"
+			},
+			"Q19": {
+				"answer": "We are thinking about it for next season! You have any ideas ? Contact us !",
+				"question": "Do you provide training examples ?"
+			},
+			"Q2": {
+				"answer": [
+					"For clubs and coaches, it is video equipment + a web platform where they can (1) upload their match videos, (2) analyze their matches (what is called indexing, ie cutting and drawing functionalities), (3) share their analyzes with their players and (4) keep track of team performance throughout the season.",
+					"For players, it is a mobile application that allows them to access the coach's analyzes and highlight their performances in order to progress and create new career opportunities."
+				],
+				"question": "How does LECLUB work ?"
+			},
+			"Q20": {
+				"answer": "Unfortunately, we do not sell the hardware. We develop software to save coaches' time and help teams progress. The equipment is a service that we provide to make your life easier, but we do not wish to be a reseller.",
+				"question": "I want to buy your equipment, is it possible ?"
+			},
+			"Q21": {
+				"answer": "We use cameras suitable for video capture for sports.",
+				"question": "Which type of camera do you use ?"
+			},
+			"Q22": {
+				"answer": "There are no accessories in our plans but we can provide you with certain accessories on request.",
+				"question": "Is there a phone holder ?"
+			},
+			"Q23": {
+				"answer": "Our pole weighs around 7kg. It is easily transportable, it is about 1.50m when folded.",
+				"question": "How much does the pole weigh ? Can I transport it ?"
+			},
+			"Q24": {
+				"answer": "Yes, in this case it is recommended to install the pole in the first row and unfold one or two sections.",
+				"question": "Can I use it in the stands ?"
+			},
+			"Q25": {
+				"answer": "If your game has been filmed, added to the platform, and your players do not have access to it, you must review the confidentiality of the videos and check the players who must have access to the match.",
+				"question": "Why can't a player access to my game video ?"
+			},
+			"Q26": {
+				"answer": "Some coaches prefer that access to videos of their matches be restricted to their staff and players. So you cannot have access to it.",
+				"question": "Why can't I access other people's video ?"
+			},
+			"Q27": {
+				"answer": [
+					"We do not film the matches of our partner clubs. Except for very special events where they call on us (tournaments for example).",
+					"It is really easy to film: just ask a substitute, a volunteer, a parent. Some coaches also have a video assistant or use a player from another category who would like to learn video."
+				],
+				"question": "Do you come to film the games ?"
+			},
+			"Q28": {
+				"answer": "Contact us to receive an estimate. To have an order of magnitude, a match costs on average 600 euros.",
+				"question": "How much does it cost if you come to film ?"
+			},
+			"Q29": {
+				"answer": "Again, it's up to you! You can choose to put your match in public or in private. In public, everyone can see your match and you increase your chances of attracting sponsors. In private, you choose who has access to your match (other educators, your players, etc.).",
+				"question": "Can the public see my training sessions filmed ?"
+			},
+			"Q3": {
+				"answer": "We necessarily have a plan adapted to your needs:",
+				"basic": "BASIC: free, for 1 team, you can take advantage of the basic functionalities of the online software: upload, share with players, clip creation (sequencing), drawing, etc.",
+				"club": "CLUB: from 550 € / season, for an unlimited number of teams and coaches, you benefit from the premium features of the software unlimited and you have 1 pole of 6 meters + 1 camera at your disposal.",
+				"coach": "COACH: from 300 € / season, for 2 coaches and 2 teams (therefore 150 € / coach / season), you benefit from the unlimited premium software features and you have 1 pole of 6 meters + 1 camera at your disposal.",
+				"premium": "PREMIUM: 10 € / month, for 1 team, you can access the premium features of the software (live sequencing, add matches to the calendar, add training sessions, etc.)",
+				"question": "How much does the LECLUB solution cost?"
+			},
+			"Q30": {
+				"answer": "Don't panic, just adjust the rain protection that comes with the equipment.",
+				"question": "How do you do when it rains? Is there protection ?"
+			},
+			"Q31": {
+				"answer": "We have different battery sizes, between 2 hours and 10 hours !",
+				"question": "How long does the battery last ?"
+			},
+			"Q32": {
+				"answer": "They can, it’s up to you.",
+				"question": "Do players have access to the video ?"
+			},
+			"Q33": {
+				"answer_first_part": "With COACH plan, you can be 2 on your subscription (2 coaches and 2 teams).",
+				"answer_second_part": "With CLUB plan, the number of coaches and teams is unlimited",
+				"question": "Can a coach of another category film his match ?"
+			},
+			"Q34": {
+				"answer": "We provide online training for educators involved in the club's video project. They will learn to :",
+				"question": "I assume you are training club educators ?",
+				"skill_n1": "use video material",
+				"skill_n2": "use video analysis software"
+			},
+			"Q35": {
+				"answer": "Yes and it is even recommended! Your content should be used to highlight your work, your team and your club! You have sharing buttons (Facebook, Twitter).",
+				"question": "Can I use the content I created on your platform on my Facebook page ?"
+			},
+			"Q36": {
+				"answer": "You can create a trail yourself on your LECLUB space. It is shared directly on our application and players can apply online. The administration is automatically managed by LECLUB, you just have to select the profiles that interest you ! :)",
+				"question": "Can you share my trial ?"
+			},
+			"Q37": {
+				"answer": "Image rights can be invoked when you film matches for public viewing. In this case, we recommend that you add a mention on image rights when registering players.",
+				"imageRight": {
+					"explanation_n1": "The person must be identifiable and recognizable on the offending publication. In the absence of identification, there can be no infringement of the right to the image.",
+					"explanation_n2": "Image rights cannot be infringed without public use of this image. Indeed, if the image is not broadcast, it will not be possible to invoke the right to the image",
+					"explanation_n3": "It is therefore quite difficult for an average spectator to easily recognize a player. In addition, several arguments seem to go against the principle of image rights",
+					"explanation_n4": "you film the public domain",
+					"explanation_n5": "you film a group",
+					"explanation_n6": "people are difficult to identify (you are able to identify them because you know them and know their position / number on the match)",
+					"explanation_n7": "Image rights are an interpretation of article 9 of the civil code, which means that the court is free to interpret this article as it sees fit.",
+					"explanation_n8": [
+						"An example in the Val D'oise:",
+						"the Gonesse District Court (Val d'Oise) dismissed on 24 July 2014 a complainant who wanted her photo, taken on the public highway by a local photo club, to be removed from a work distributed by the town hall to support its success in terms of social mix.",
+						"The principles of previous case law continue to apply fairly regularly. The decision is moreover very broadly written, since \"the freedom to take a picture of a person on the public highway is reaffirmed\".",
+						"The reservation relating to the dignity of the person is however reaffirmed, but it was not accepted against the defendant by the court in the present case, the complainant not being moreover the main subject of the photo (TI Gonesse RG no 11-13-000736)"
+					],
+					"more": "Some additional articles",
+					"title": "To be in the presence of a case of damage to the image of a person, it would be necessary that"
+				},
+				"question": "What about image rights ?"
+			},
+			"Q4": {
+				"answer": [
+					"We work with many professional and amateur clubs. Le Havre, Quevilly Rouen, Marignane Gignac, Pays d´Aix, Montrouge FC, AAS Sarcelles, etc.",
+					"Each customer is important to us because everyone's feedback allows us to improve our product on a daily basis.",
+					"We also work with many scouts from professional clubs to facilitate the relationship between professional and amateur clubs and players' tracking."
+				],
+				"question": "What are your references?"
+			},
+			"Q5": {
+				"answer": [
+					"Video is evrywhere in the professional world.",
+					"It is a training and progression tool.",
+					"By filming your team, you will analyze your game, correct your weaknesses, improve your strengths and understand what you have to work for the following week.",
+					"The video saves weeks of work for many players on essential concepts on the individual level (positioning of the body, orientation of control, etc.) and collective (defend by advancing, play the offside, create numerical advantage, etc.)",
+					"In addition, the video allows you to highlight the club when you share the best actions or the best games on your social networks!",
+					"Last thing, professional clubs are very demanding of videos for tracking players, it is the best possible investment to develop a partnership with one or more professional club(s)!"
+				],
+				"question": "Why filming ?"
+			},
+			"Q6": {
+				"answer_first_part": "LECLUB supports clubs in",
+				"answer_second_part": "Finally, the video also facilitates exchanges with professional clubs which can track your players.",
+				"question": "What will LECLUB bring to your club ?",
+				"reason_n1": "video",
+				"reason_n2": "communication",
+				"reason_n3": "Training your educators"
+			},
+			"Q7": {
+				"answer": "We are always looking for new reports! Contact us with an idea :)",
+				"question": "How do I get LECLUB to report to my club ?"
+			},
+			"Q8": {
+				"answer": [
+					"It's very simple, just ask a substitute, a volunteer, a parent.",
+					"Some coaches also have a video assistant or use a player from another category who would like to learn video.",
+					"Our tutorial section is there to support you if you encounter a problem."
+				],
+				"question": "How do I film ?"
+			},
+			"Q9": {
+				"answer": "When you subscribe to a COACH or CLUB plan, a 6-meter pole, a camera, a battery, and rain protection are available to you for the duration of your subscription. During your subscription, the material is at home and you are responsible for the material. At the end of your subscription, you can either extend your subscription, or end it and send the equipment back to us. Return costs are your responsibility.",
+				"question": "Is the equipment ours? Can we keep it all season ?"
+			}
+		},
+		"title": "Frequently Asked Questions"
+	},
+	"FastUpload": {
+		"description": "Click or drag a video here to quickly add a missing video to one of your matchday",
+		"send_button": "Start sending"
+	},
+	"FootballPositions": {
+		"centre-backs": "Central back",
+		"defensive_midfielders": "Defensive midfielder",
+		"goalkeeper": "Goalkeeper",
+		"left_defender": "Left back",
+		"left_midfielders": "Left midfielder",
+		"left_wingers": "Left winger",
+		"midfielders": "Midfielder",
+		"offensive_midfielders": "Offensive midfielder",
+		"right_defender": "Right back",
+		"right_midfielders": "Right midfielder",
+		"right_wingers": "Right winger",
+		"strikers": "Striker",
+		"wingers": "Winger"
+	},
+	"Header": {
+		"BrowseNavigation": {
+			"actualites": "News",
+			"browse": "Browse",
+			"clubs": "Club",
+			"coachs": "Coach",
+			"joueurs": "Players",
+			"videos": "Videos",
+      "press": "Press",
+      "contact": "Contact"
+		},
+		"ProductNavigation": {
+      "product": "Products",
+      "coaches": "For coaches",
+      "players": "For players",
+      "recruiters": "For recruiters",
+      "fans": "For fans"
+		},
+		"blog": "Blog",
+		"connexionButton": "Log in",
+		"deconnexionButton": "Log out",
+		"inscriptionButton": "Subscription",
+		"offer": "Offer"
+	},
+	"HomePage": {
+		"leClub-community-title": "Join LECLUB",
+		"leClub-community-word": "The best coaches, the best players, the recruiters, the sponsors, and the fans are all on LECLUB",
+		"leClub-users-title": "They have already started with LECLUB !",
+		"clip-disclaimer-subtitle_firstSentence": "Simplicity and efficiency at the service of the development of your players and team.",
+		"clip-disclaimer-subtitle_secondSentence": "And with our  live indexing app, it's even faster !",
+		"clip-disclaimer-title": "Make your first clip now !",
+		"community-quotes_firstQuotes": "The video is an additional tool which allows us to have new perspectives and to go faster [...] we always try to develop the qualities of our players; they sometimes have the impression that we are on their backs, but, thanks to the video, the player immediately has a different feeling because he sees what he is doing. [...] The LECLUB platform makes it possible to index and identify the players in the clip.",
+		"community-quotes_secondQuotes": "I use videos for the individual and collective development of the player, it allows me to make personalized corrections to each player. Each weekend I watch my match and observe the player's acquisitions and development. This allows me to tailor my trainings accordingly. Before I was only filming in the stands, with LECLUB equipment I can film everywhere, at home and outside.",
+		"home-banner-button": "Start LECLUB now !",
+		"home-banner-desc_firstSentence": "Your time is precious. With live indexing, focus yourself on analyzing and coaching.",
+		"home-banner-desc_secondSentence": "In training as in match, start now to develop your players and team.",
+		"home-banner-title": "The best performing video analysis solution",
+		"join-leClub-disclaimer": "Next season starts now, don't waste any more time!",
+		"video-match-record-label": "Filmed game",
+		"video-material-disclaimer-button": "DISCOVER OUR HARDWARE",
+		"video-material-disclaimer-subtitle_firstSentence": "Easy to use with your smartphone or tablet",
+		"video-material-disclaimer-subtitle_secondSentence": "Optional: remote-controlled solution from the sidelines",
+		"video-material-disclaimer-title": "The right video equipment for you",
+		"video-minutes-watched-label": "Minutes viewed",
+		"video-views-label": "Views"
+	},
+	"HomeV2": {
+		"carousel": {
+			"close_button": {
+				"disclaimer": "This is final",
+				"hover": "Close",
+				"warning": "Are you sure you want to close LECLUB tutorials? Video and PDF tutorials will still be available but the indexing tutorial will become inaccessible !"
+			},
+			"fake_editing": {
+				"Argentina": "Argentina",
+				"France": "France",
+				"button": "Try Indexing",
+				"match_date": "30 June 2018",
+				"match_result": "Victory",
+				"title": "Try LECLUB on France - Argentina"
+			},
+			"tutorials": {
+				"button": "Access tutorials",
+				"pdf_tutorial_title": "Find all PDF LeClub tutorials!",
+				"video_tutorial_title": "Find all LeClub tutorial videos !"
+			}
+		},
+		"last_matches": {
+			"title": "Last games"
+		},
+		"most_used_players": {
+			"title": "Most used players"
+		},
+		"my_season": {
+			"my_team": "My team",
+			"title": "My season"
+		},
+		"platform_shortcuts": {
+			"title": "Platform shortcut"
+		},
+		"season_stats": {
+			"noStats": "No statistic yet ",
+			"title": "Season statistics"
+		},
+		"see_all": "See all"
+	},
+	"Import": {
+		"importProgress": "Importation in progress"
+	},
+	"LiveEditing": {
+		"reset": "Restart live indexing ?"
+	},
+	"MatchCard": {
+		"editing_title": "Index video",
+		"match_sheet": "Match sheet"
+	},
+	"MatchCreate": {
+		"create_confirmation": "Create match",
+		"date": {
+			"placeholder": "Date of the friendly match",
+			"title": "Select a date"
+		},
+		"opponent_club": {
+			"error": "You must add an opposing club",
+			"title": "Opposing Club"
+		},
+		"opponent_team": {
+			"error": "You must add an opposing club",
+			"title": "Opposing Club"
+		},
+		"title": "Create a match",
+		"which_categorie_error": "You must choose a category",
+		"which_side": {
+			"away": "Outside",
+			"home": "Home",
+			"title": "You play"
+		}
+	},
+	"Mediateque": {
+		"Modal": {
+			"privacy": "Your media is currently private, wish to make it public ?"
+		},
+		"Search": {
+			"bySearch": "SEARCH BY",
+			"comentSearch": "COMMENT",
+			"cutSearch": "INDEXING",
+			"mediaSearch": "MEDIA",
+			"textSearch": "What media are you looking for",
+			"titleSearch": "TITLE",
+			"trainingSearch": "TRAINING",
+			"videoSearch": "VIDEO"
+		},
+		"seeButton": "See",
+		"leClubStudio": "LECLUB STUDIO",
+		"facebookShare": "Find my LECLUB video editing through this link.",
+		"subTitle": "Create your index"
+	},
+	"MissingMatchVideoSelect": {
+		"disclaimer": "You have no matchday waiting for video",
+		"placeholder": "Select a media"
+	},
+	"MyRobot": {
+		"assign_button": "Assign",
+		"back_button": "Return",
+		"deleteVideo": "Delete video",
+		"deleteVideoConfirm": "Are you sure you want to delete this video? This action is final",
+		"disclaimer": "You have no video waiting for processing on your Robot-Cameraman",
+		"form": {
+			"assign_video": {
+				"title": "Assign your video",
+				"to_friendly_match": "To a friendly match",
+				"to_match": "To a match",
+				"to_training": "To a training"
+			},
+			"choose_team": "Choose a team",
+			"complete_info": "Complete the information",
+			"no_day_error": "You must select a day",
+			"video_privacy_error": "You must choose a privacy option"
+		},
+		"title": "List of videos from your Robot-Cameraman",
+		"upload_video": {
+			"success_message": "Video processed!"
+		},
+		"video": "Video of"
+	},
+	"Notification": {
+		"noNotification": "No notifications",
+		"title": "Notification"
+	},
+	"Offers": {
+		"card": {
+			"collective": {
+				"club_perks": {
+					"button": "Choose CLUB",
+					"description": "For an unlimited number of teams and coaches",
+					"everything_included": "Included in all unlimited offers"
+				},
+				"coach_perks": {
+					"button": "Choose COACH",
+					"description": "For 2 coaches & 2 teams (150€/coach)",
+					"pre_editing": "Video live indexing and statistics",
+					"video_material": "Video hardware"
+				},
+				"most_popular_offer": "The most popular",
+				"title": "Team",
+				"with_material": "With hardware"
+			},
+			"individual": {
+				"basic_perks": {
+					"button": "Choose BASIC",
+					"detections": "Management of trial events",
+					"video_analysis": "Video analysis (indexing and drawing)",
+					"video_management": "Adding videos and sharing with players",
+					"website_access": "Website & news management"
+				},
+				"description": "For 1 coach et 1 team",
+				"premium_perks": {
+					"add_logo": "Club and / or sponsor logo on videos",
+					"button": "Choose PREMIUM",
+					"download_video": "Download videos",
+					"everything_before": "Include all of the previous offer",
+					"live_editing": "Live indexing and statistics",
+					"video_playlist": "Editing (adding matches, creating a playlist, etc.)"
+				},
+				"title": "Individual"
+			},
+			"lifetime": "For Life",
+			"without_material": "without Hardware"
+		},
+		"compare": {
+			"description": "Compare and find the offer that suits your needs. Our FAQ is also there to help you.",
+			"title": "Which offer to choose?"
+		},
+		"subscription_infos": {
+			"already_subscribed": "You have already subscribed to this plan",
+			"cancel_subscription": {
+				"advice": "If you want to downgrade your plan, wait until the end of the season, you can enjoy all the features of your current plan until the end of the season and you will be able to subscribe to another plan.",
+				"end_of_subscription": "end_of_subscription :",
+				"new_subscription": "You will soon be able to choose your new subscription."
+			},
+			"modify_subscription": {
+				"advice": "Until the end of your season, you can use the features of your previous subscription.",
+				"leClub_managed": "Your subscription is managed by the LECLUB team, to be able to modify it, email us at team@leClub.co",
+				"recent_changes": "You recently changed your subscription."
+			}
+		},
+		"team_number": "Number of team",
+		"title": "An offer for all teams"
+	},
+	"OptionAbonnez": {
+		"description": "Have you changed your mind? Change your option for next season !",
+		"private": {
+			"description": "unlimited number of private videos",
+			"disclaimer": "Do you want to activate the private option?"
+		},
+		"public": {
+			"description": "unlimited number of public videos",
+			"disclaimer": "Are you sure you want to activate public option ?"
+		},
+		"recent_changes": {
+			"description": "Until the end of your season, you can continue to use your \"PRIVATE\"option. Next season, you will benefit from the \"PUBLIC\" option, which is free.",
+			"title": "You recently changed your option."
+		},
+		"title": "Change your option"
+	},
+	"PlayerProfile": {
+		"noFormation": "The player has entered no information",
+		"noNumber": "Number not specified",
+		"noPosition": "Position not specified ",
+		"video": {
+			"coachPrivate": "The coach of this player has decided to make the video private, access is restricted for his players and his staff!"
+		}
+	},
+	"Players": {
+		"inputPlaceholder": "Which player are you looking for ?"
+	},
+	"Presequencage": {
+		"end": "End",
+		"laps": "Laps",
+		"modal": {
+			"content": "Do you want to end your live indexing for this game ?",
+			"erreur": "Error of live indexing",
+			"success": "Successful live indexing",
+			"title": "Are you sure ?"
+		},
+		"rapport": "Rapport",
+		"tab1": "Ball",
+		"tab2": "Plays",
+		"tutorialModal": {
+			"addNumbers": "Press + for adding players' numbers.",
+			"chronoEndExplanation": "End live indexing.",
+			"chronoResetExplanation": "Reset stopwatch and live indexing.",
+			"chronoStartExplanation": "Start the stopwatch.",
+			"chronoStopExplanation": "Stop the stopwatch.",
+			"modalTitle": "Live indexing tutorial",
+			"oneTapExplanation": "Press one time for recovery.",
+			"title": "Welcome to live indexing tutorial !",
+			"twoTapExplanation": "Press two time for turn over",
+			"videoExplanation": "Your live indexing will be available on the video once your upload it on the platform!"
+		}
+	},
+	"Products": {
+		"custom": {
+			"contact": "Contact our team",
+			"title": "Can we do more for you? Tell us !"
+		},
+		"detection": {
+			"advertise": "Do you want to attract the best players in your area ? Say it on the LECLUB app !",
+			"title": "Let us manage the administration of your trials "
+		},
+		"drawings": {
+			"explanation": "Transfer your knowledge of the game to your players has never been easier: make a drawing ! ",
+			"title": "Start with video analysis now with our drawing functionality !"
+		},
+		"liveEditing": {
+			"explanation_first_part": "Download the LECLUB app for coaches. Use our live indexing feature and we create your clips automatically !",
+			"explanation_second_part": "LECLUB app also allows you to index loss ball & ball recovereries... When do you start?",
+			"title": "Thanks to live indexing, edit your match live and divide your work time by 5 !"
+		},
+		"playerApp": {
+			"title": "Download Player App !"
+		},
+		"plus": {
+			"detection": {
+				"explanation": "At LECLUB, we save you time on your trials ! With the administrative trial management option, you can create a detection in a few clicks. Players register from the LECLUB FC app and you can automatically receive their information! The hours spent to sort is over 😉",
+				"title": "Trials management"
+			},
+			"disclaimer": "Feature available with PREMIUM, COACH and CLUB plans.",
+			"download": {
+				"explanation": "Download easily your work and reuse it for your pre-match briefs !",
+				"title": "Download"
+			},
+			"edit": {
+				"explanation": "Take control: thanks to the edit mode, you can add matches to your calendar, add training, create and download playlists.",
+				"title": "Editing"
+			},
+			"logo": {
+				"explanation": "Have your LECLUB subscription funded by a sponsor by adding your logo and his on your videos !",
+				"title": "Club and / or sponsor logo"
+			},
+			"privacy": {
+				"disclaimer": [
+					"With the basic plan",
+					"Some coaches do not want other teams to observe them, is that your case? Tell them to join LECLUB too and all benefit from the best rate, no disadvantage if all the videos in your division are public !",
+					"Do not you want to have your videos in public? You can manage the privacy of your videos and decide who has access to your videos with the public / private option."
+				],
+				"explanation": "The \"private video\" option allows you to manage the confidentiality of your videos.",
+				"title": "Video privacy"
+			},
+			"privatePrice": {
+				"club": "Club plan with private video option = 1100€/season",
+				"coach": "Coach plan with private video option = 600€/season (soit 300€ per coach !)",
+				"premium": "Premium plan with private video option = 200€/season"
+			},
+			"publicPrice": {
+				"club": "Club plan = 550€/season",
+				"coach": "Coach Plan = 300€/season (ie 150€ per coach !)",
+				"premium": "Premium plan= 100€/season",
+				"title": "As a reminder, WITHOUT THE PRIVATE VIDEO OPTION, the prices of our plans are"
+			},
+			"share": {
+				"explanation": "Add and share your videos with a few clicks! With LECLUB as soon as you film a match, you can put it online and share it with your players easily. Your players will receive a notification on the LECLUB FC app and will be able to review their match and work on your analyzes. The app is 100% free to players and all club players can download it.",
+				"title": "Add and share"
+			},
+			"teamNumber": {
+				"basic": {
+					"explanation": "You can create 1 coach profile and manage 1 team",
+					"title": "BASIC PLAN"
+				},
+				"club": {
+					"explanation": "You can create an unlimited number of coach profiles and therefore manage an unlimited number of teams.",
+					"title": "CLUB PLAN"
+				},
+				"coach": {
+					"explanation": "You can create 2 coach profiles and manage 2 teams. You can therefore share the cost with another coach.",
+					"title": "COACH PLAN"
+				},
+				"explanation": "Each LECLUB plan allows you to manage a certain number of teams and therefore coaches",
+				"premium": {
+					"explanation": "You can create 1 coach profile and manage 1 team. If another coach from your club also wishes to join LECLUB, he must take another premium formula or you must switch to a coach or club formula.",
+					"title": "PREMIUM PLAN"
+				},
+				"title": "Number of teams"
+			},
+			"title": "All the advantages of LECLUB for progression and performance."
+		},
+		"reports": {
+			"explanation": "Do you have a story to share? Contact us.",
+			"title": "Our partners matter to us ... We have already proven them ..."
+		},
+		"storage": {
+			"explanation_first_part": "Access the LeClub cloud from anywhere, anytime, on mobile, tablet, or computer",
+			"explanation_second_part": "Store your matches on our platform, it's unlimited! Watch them, analyze them, share them, we will change your life !",
+			"title": "Usb keys is over !"
+		},
+		"stuff": {
+			"advertising_n1": "With or without a stand, an exceptional result thanks to our experience in capturing football matches.",
+			"advertising_n2": "Telephone support or remote control, we have the solutions adapted to your needs.",
+			"advertising_n3": "Our cameras are the simplest on the market and connect to all phones or tablets!",
+			"title": "With the best equipment, it's easy to film well!"
+		}
+	},
+	"SeasonsStats": {
+		"goal_against": "Goal against",
+		"goal_for": "Goal for",
+		"mean_age_team": "Average age of the team",
+		"victory_percent": "Victory percent"
+	},
+	"Settings": {
+		"bioPlaceholder": "My biography",
+		"favoriteCoach": {
+			"placeholder": "Who is your favorite coach",
+			"title": "Favorite coach"
+		},
+		"philoPlaceholder": "Explain your philosophy",
+		"player_career": {
+			"placeholder": "Talk about your playing career",
+			"title": "Career as a player"
+		},
+		"scorePlaceholder": "Champion 2016",
+		"successTitle": {
+			"placeholder": "Team 2",
+			"title": "Success title"
+		}
+	},
+	"Sheets": {
+		"add_strength": "Add +",
+		"add_weakness": "Add -",
+		"ball_loss": "Turnover",
+		"ball_taken": "Recovery",
+		"match": {
+			"match_date": "Match date",
+			"match_infos": "Match Information",
+			"match_score": "match Score",
+			"update_match_score": "Update score"
+		},
+		"mean_age": "Average age",
+		"mean_players_rating": "Average player rating",
+		"team_players": {
+			"advice": "ADVICE: You can edit the stats by clicking on the corresponding box",
+			"description": "Your players can update their info on the app to save you time !"
+		},
+		"team_rating": "Team score (out of 10)",
+		"team_strength": "strong points",
+		"team_weakness": "weak points",
+		"training": {
+			"training_date": "Training date",
+			"training_infos": "Training information",
+			"training_rating": "Training score (out of 10)"
+		},
+		"video_management": {
+			"already_ask_video_access": "You have already made a request to access this video",
+			"ask_video_access": "Request access to the video",
+			"ask_video_access_confirm": "An email requesting access to the video has been sent to the coach",
+			"delete_related_files": {
+				"disclaimer": "Do you want to delete all files associated with this video (clips, drawings, spotlight, etc ...) ?",
+				"title": "Delete associated files ?"
+			},
+			"delete_video": "Delete video",
+			"match_video_delete": {
+				"title": "Are you sure you want to delete this match video ?"
+			},
+			"training_video_delete": {
+				"title": "Are you sure you want to delete this training video ?"
+			},
+			"unauthorized_video_access": "Your are not allowed to access to this video"
+		}
+	},
+	"Sider": {
+		"CoachPageTitle": {
+			"abonnezvous": "Subscribe",
+			"all": "Search player",
+			"club": "Club",
+			"coach": "Coach",
+			"desabonner": "Unsubscribe",
+			"detection": "Trial events",
+			"edit": "Indexing",
+			"exit": "Quit",
+			"home": "Dashboard",
+			"infopaiement": "Payment information",
+			"joueur": "Player",
+			"joueurs": "Find Players",
+			"match": "Match",
+			"matches": "Your matches",
+			"mediatheque": "Media",
+			"myMatches": "Games",
+			"myPlayers": "Players",
+			"myTrainings": "Training",
+			"optionAbonnez": "Subscription option",
+			"paiement": "Payment tracking",
+			"parametre": "Settings",
+			"parametreStudio": "Studio Settings",
+			"player": "player",
+			"players": "Players",
+			"presequencage": "Live indexing",
+			"robot": "Robot",
+			"robots": "Your Robot",
+			"sequencage": "Indexing",
+			"settings": "Settings",
+			"subscribe": "Subscription",
+			"suivi": "My subscription",
+			"training": "Training",
+			"trainings": "Your training",
+			"tryLeClub": "Try LeClub",
+			"tutoMateriel": "Hardware Tutorial",
+			"tutoStudio": "Studio Tutorial",
+			"tutorial": "Tutorial",
+			"unJoueur": "Player",
+			"unsubscribe": "Unsubscribe",
+			"video": "Video"
+		},
+		"browse_section": {
+			"club": "Club",
+			"coach": "Coach",
+			"players": "Players",
+			"title": "Browse",
+			"videos": "Videos"
+		},
+		"disconnect": "Log out",
+		"profile_section": {
+			"allPlayer": "All players",
+			"detection": "Trials",
+			"my_detection": "My Trials",
+			"my_match": "My games",
+			"my_media_library": "My media",
+			"my_robot": "My robot",
+			"my_team": "My team",
+			"my_trainings": "My training",
+			"personnal_space": "My space",
+			"title": "My profile"
+		},
+		"settings_section": {
+			"editing_settings": "Indexing",
+			"profile_settings": "Profile",
+			"title": "Settings"
+		},
+		"sponsorship_modal": {
+			"description": {
+				"first_bold_words": "assists",
+				"first_normal_word": "Make",
+				"second_bold_words": "free subscription",
+				"second_normal_words": "to get your"
+			},
+			"explanation": {
+				"club_formula": "club plan",
+				"coach_formula": "coach plan",
+				"money_for_you": "for you",
+				"money_for_your_affiliate": "your godson",
+				"normal_sentence": "For any subscription to a"
+			},
+			"instruction": "Invite coaches from other clubs to join LECLUB !"
+		},
+		"sponsorship_section": {
+			"description": "Invite coaches to get your subscription",
+			"free": "FREE*",
+			"mailMessage": "Come%20and%20discoverLECLUB&body=I%20am%20a%20user%20of%20analysis%20hardware%20and%20software%20solution%20LECLUB.\n%20With%20my%20referral%20code%20you%20can%20benefit%20from%20a%20reduction%20on%20your%20subscription!\n%20Get%20yourself%20on%20the%20video%20too%20to%20advance%20your%20group!%20",
+			"shareMessage": "I am a user of analysis hardware and software solution LECLUB. With my referral code you can benefit from a reduction on your subscription! Get yourself on the video too to advance your group!",
+			"title": "Sponsorship:"
+		},
+		"subscribe_section": {
+			"billing_information": "Payment information",
+			"privacy_management": "Private / Public",
+			"subscribe": "Subscribe",
+			"subscription_tracking": "Payment tracking",
+			"title": "Subscription",
+			"unsubscribe": "Unsubscribe"
+		},
+		"tutorial_section": {
+			"equipment": "Hardware",
+			"pdf_tutorial": "PDF tutorials",
+			"title": "Tutorials"
+		}
+	},
+	"Stripe": {
+		"billingError": {
+			"contactAdmin": "Please contact an admin in order to not to pay again",
+			"unverified": "Payment could not be verified"
+		},
+		"card_error": "Card error",
+		"card_infos": {
+			"card_numbers": "Card numbers",
+			"card_owner_name": "Name of the card holder",
+			"cryptogram": "Cryptogram",
+			"expiration_date": "Expiration date"
+		},
+		"form_error": {
+			"address": {
+				"error_description": "The address you entered is empty or contains illegal characters.",
+				"error_message": "Address error"
+			},
+			"city": {
+				"error_description": "The city you entered is empty or contains illegal characters.",
+				"error_message": "City error"
+			},
+			"email": {
+				"error_description": "The email you entered is empty or contains illegal characters.",
+				"error_message": "Email error"
+			},
+			"form": {
+				"error_message": "Form error"
+			},
+			"name": {
+				"error_description": "The name you entered is empty or contains illegal characters.",
+				"error_message": "Name error"
+			},
+			"phone_number": {
+				"error_description": "Wrong phone number format. Example: +33 612345678",
+				"error_message": "Phone number error"
+			}
+		},
+		"modify_button": "Modify my contact information",
+		"no_card": "No payment method yet registered.",
+		"subscribed": "Current subscription",
+		"unsubscribed": "Subscription terminated",
+		"unsubscribedError": "Sorry, an error occurred during termination. Please try again or please contact an admin"
+	},
+	"Studio": {
+		"dashMode": "doted mode",
+		"drawingLayer": {
+			"exitDrawingDisclaimer": "Are you sure you want to quit ? Your drawing will not be saved."
+		},
+		"spotlightLayer": {
+			"activate": "Spotlight ON",
+			"clipSpotlightDisclaimer": "You must create a spotlight before creating a clip",
+			"created": "Spotlight created",
+			"creation": "Spotlight is being created",
+			"desactivate": "Spotlight OFF",
+			"error": "Unable to initialize the spotlight",
+			"navigatorError": "Your browser is not compatible with our spotlight",
+			"navigatorSuggestion": "Please us Google Chrome or Mozilla Firefox",
+			"tips": "Press a key on your keyboard then follow your player with your mouse."
+		}
+	},
+	"StudioPreference": {
+		"clipsSize": "Default size of your clips",
+		"theme": {
+			"color": "Category color",
+			"explanation": "Create categories associated with your clips",
+			"name": "Category's name",
+			"title": "Category creation",
+			"yours": "Your categories"
+		}
+	},
+	"Subscribe": {
+		"billing_infos": {
+			"discount_code": "Promotional code",
+			"new_card": {
+				"explanation": "Choose this option to register a new payment method.",
+				"title": "New payment method"
+			},
+			"saved_card": {
+				"explanation": "Choose this option if you want to keep the same means of payment saved in your space",
+				"title": "Registered means of payment"
+			},
+			"searching": "Searching for information ...",
+			"title": "Payment information"
+		},
+		"choose_offers": "Choose an offer",
+		"coach_teams": {
+			"errors": {
+				"no_team": "Please specify your two main teams.",
+				"one_team_disclaimer": "Please note that you have selected only one team out of two, are you sure you want to continue with only one team ?",
+				"one_team_disclaimer_confirm": "Please note this choice is final, are you sure of your selection ?"
+			},
+			"explanation": "With your coach formula, you can select up to two teams and share your account with another coach",
+			"send_invite": "Invite your partner coach",
+			"title": "Select your two teams"
+		},
+		"invoice_management": {
+			"no_invoice": "No invoice",
+			"no_invoice_message": "You have no invoice available",
+			"online_invoice": "Online invoice",
+			"pdf_invoice": "Invoice in PDF"
+		},
+		"one_team_offers": {
+			"disclaimer": "Warning: pay attention when you select your team because you will not be able to change afterwards",
+			"title": "Select your main team"
+		},
+		"premium_team_error": "Please specify your main team.",
+		"pricing": {
+			"amount_paid": "Amount including VAT",
+			"basic": "0€ per month",
+			"club": "550€ per season, for the whole club",
+			"coach": "330€ per season for 2 coaches",
+			"premium": "10€ per month",
+			"total_no_discount": "Total excluding promotion"
+		},
+		"privacy_option": {
+			"private": {
+				"description": {
+					"first_part": "This option is chargeable but it gives all the privacy you need to avoid being",
+					"last_part": "Think it is too expensive ? Some coaches have found the solution: they have motivated their division to join LeClub in public and everyone can see everyone, just like the pros ! :eyes:",
+					"strong_part": "observed by the competition"
+				},
+				"explanation": {
+					"first_part": "on line",
+					"last_part": "private videos"
+				},
+				"option_choice": "PRIVATE OPTION"
+			},
+			"public": {
+				"description": {
+					"first_part": "Great choice ! You increase your chances",
+					"last_part": "(Sponsor other coaches to have the entire league in video !)",
+					"second_part": "and contribute to the development of video in grassroot football !!!",
+					"strong_part": "attract sponsors"
+				},
+				"explanation": {
+					"first_part": "FREE, upload",
+					"last_part": "Public videos"
+				},
+				"option_choice": "PUBLIC OPTION"
+			},
+			"strong_unlimited": "unlimited"
+		},
+		"subscribe_type": "Subscription type",
+		"success": {
+			"active": "Congratulations! Your subscription is active",
+			"email": "You will receive an email as soon as possible to keep you informed of the arrival of your equipment.",
+			"recap": "You have just subscribed to us",
+			"title": "Let's go !",
+			"use_leClub": "You can now use all the features of LECLUB platform."
+		},
+		"tracking": {
+			"cancel_subscription": "Canceled subscription",
+			"contact": "We are delighted to support you in your work. Do you have any ideas or suggestions ? Contact",
+			"last_invoices": "Previous invoices",
+			"next_paiement": "Your next due date",
+			"no_subscription": "No subscription in progress.",
+			"sign_up": "You are registered on LECLUB since",
+			"subscribed_at": "You have subscribed to",
+			"title": "Tracking my subscription"
+		},
+		"unsubscribe": {
+			"button": "Unsubscribe",
+			"change_club_explanation": "You don't have to cancel your subscription if you change club, contact us to transfer your subscription.",
+			"ending": "End of subscription",
+			"step": {
+				"contact_us": "Contact us by email at",
+				"disclaimers": {
+					"loosing_discount": "the loss of any promotional rate",
+					"return_gears": "the return, at your expense, of the equipment made available by the company",
+					"subscription": "the payment due date for your entire subscription",
+					"title": "Please note, your cancellation results in"
+				},
+				"return_gears_explanation": "To find out how to return the equipment and termination procedure described in",
+				"title": "If you want to leave us"
+			},
+			"success_message": "Your subscription is canceled. You will still have access to your subscription until the end of your subscription time",
+			"title": "Unsubscribe",
+			"warning_message": "Are you sure you made your choice? This action cannot be undone"
+		}
+	},
+	"TierModal": {
+		"advantages": {
+			"edit_custom": "Editing & Customization",
+			"unlimited_leClub": "Unlimited LECLUB"
+		},
+		"button": "Access to LECLUB plans",
+		"catch_phrase": "Enjoy the best of LECLUB with our premium formulas, coach, club.",
+		"club_catch_phrase": "For clubs ahead of the game: the video for all categories",
+		"club_description": "For an unlimited number of coaches and videos",
+		"coach_catch_phrase": "For coaches looking for performance: 6 meter pole + camera + software.",
+		"premium_catch_phrase": "For coaches who are already filming and who need a complete video analysis tool!",
+		"title": "Choose your plan to access this functionality"
+	},
+	"TrainingCard": {
+		"filmed_training": "Filmed training !",
+		"training_sheet": "Training sheet"
+	},
+	"TrainingCreate": {
+		"create_confirmation": "Create training",
+		"title": "Create training",
+		"training_date": {
+			"error": "You must enter a date for your training",
+			"title": "Date of training"
+		},
+		"training_description": "Description",
+		"training_description_error": "Your training must have a description",
+		"training_title": {
+			"error": "You must enter a title for your training",
+			"title": "Title"
+		}
+	},
+	"Upload": {
+		"browserClose": "If you leave the page, all unfinished uploads will be lost",
+		"transcodingStatus": {
+			"COMPLETED": "Your video is now on LeClub!",
+			"TRANSCODING": "Creating your workspace",
+			"TRANSCODING_COMPLETED": "Creating your workspace",
+			"TRANSCODING_ERROR": "A problem occurred during the process. Please try again ",
+			"TRANSCODING_WAITING": "Creating your workspace, please wait",
+			"VIDEO_UPLOADING": "Video upload ongoing",
+			"VIDEO_UPLOADING_COMPLETED": "Video successfully uploaded",
+			"VIDEO_UPLOADING_ERROR": "A problem occurred during the upload. Please try again "
+		},
+		"videoUploaded": "Video online "
+	},
+	"UserForm": {
+		"clubErrors": {
+			"missingClub": "The club field is mandatory"
+		},
+		"contrat": {
+			"consentSentenceBegin": "I have read and accept t",
+			"consentSentenceDetail": "The Terms of Use, Privacy Policy and Conditions of Sale"
+		},
+		"contratErrors": {
+			"acceptError": "You must accept the registration conditions to be able to register."
+		},
+		"emailErrors": {
+			"emptyEmail": "Empty email",
+			"invalidEmail": "Invalid email address"
+		},
+		"newsletter": {
+			"description": "I want to subscribe to LeClub's newsletter"
+		},
+		"passwordErrors": {
+			"invalidPassword": "The password must be at least 8 characters long must contain one upper letter and at least one numeric digit",
+			"notSamePassword": "The passwords do not match"
+		},
+		"phoneNumberErrors": {
+			"invalidPhoneNumber": "Invalid phone number : 0102030405 ou +33102030405"
+		},
+		"submitButton": {
+			"createAccount": "Complete registration"
+		}
+	},
+	"VideoPlayer": {
+		"playlist": {
+			"deletedSequence": "Index successfully deleted",
+			"duration": "for a period of",
+			"noClips": "No clip in your playlist",
+			"noDrawings": "No draw in your playlist",
+			"showAt": "Appears at",
+			"spotlightCreation": "Your spotlight is being created"
+		},
+		"scrubber": {
+			"takeClip": "Create a clip"
+		},
+		"seekbar": {
+			"ballLoss": "Lost ball",
+			"ballLossDescription": "loss of possession",
+			"ballWin": "Recovered ball",
+			"ballWinDescription": "recover possession",
+			"highlight": "Highlights"
+		},
+		"spotlightCreated": "Spotlight successfully created"
+	},
+	"VideoPrivacyModal": {
+		"description": "Click here to add your match video",
+		"disclaimer": "The coach did not give you access to this video.",
+		"private_modal": {
+			"coach_access_description": "Select the club coaches who can access the video.",
+			"player_access_description": "Select the players in your squad who can access the video.",
+			"title": "Your video is private"
+		},
+		"see_whitelist": "See the whitelist",
+		"send_video": "Send video",
+		"sponsor_logo": "Sponsor logo",
+		"sponsor_logo_description": "Click here to add your sponsor logo",
+		"video_privacy": "Video privacy"
+	},
+	"helpCenter": {
+		"materiel": {
+			"batterieInstallation": "Install the battery",
+			"connectPhone": "Connect and control the camera from your phone",
+			"fixCamera": "Set the camera on the tripod",
+			"inTrepied": "Fold the tripod",
+			"incCamera": "Adjust the tilt of the camera",
+			"outTrepied": "Unfold the tripod",
+			"qualitiOfVideo": "Adjust quality video"
+		},
+		"pdfHelp": {
+			"addMatch": "Upload a match or training",
+			"addMatchTuto": "Tutorial How to upload a match or training",
+			"administatrion": "Tutorial how to find your invoices on the platform",
+			"beforeMatch": "Tutorial before your match",
+			"beforeMatchCheck": "Pre-game checklist",
+			"delMatch": "Delete a match or training",
+			"delMatchTuto": "Tutorial How to delete a match or a training",
+			"download": "Download the LeClub Coach app for live indexing",
+			"downloadTuto": "Download the LeClub Coach app for live indexing",
+			"drawing": "Configure video indexing",
+			"exctractFile": "Extract files from camera",
+			"exctractFileTuto": "Tutorial How to extract files from camera",
+			"findBilling": "Find your invoices on the platform",
+			"seqCreate": "Create an indexing video",
+			"seqCreateTuto": "Tutorial how to create an indexing video",
+			"seqParam": "Tutorial how to create video indexing",
+			"title": "Tutorials on games and training",
+			"toolTuto": "Tutorials about our video analysis tools",
+			"toolTutoParm": "Tutorial how to configure video indexing",
+			"tutoAdministatrion": "Tutorial for administration",
+			"tutoDrawing": "Tutorial for drawing on a video"
+		}
+	},
+	"onBoarding": {
+		"disclaimer": "If this is a mistake, you can contact us by email",
+		"inactiveClub": "Your club is no longer active this season"
+	}
+}

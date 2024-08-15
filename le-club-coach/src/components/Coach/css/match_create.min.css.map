@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACnB,KAAK,CAAE,OAAO,CACf,AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK,EACjC,AAAA,oBAAoB,AAAC,CACnB,KAAK,CAAE,IACT,CAAC",
+    "sources": [
+        "../MatchCreate/match_create.scss"
+    ],
+    "names": [],
+    "file": "match_create.min.css"
+}

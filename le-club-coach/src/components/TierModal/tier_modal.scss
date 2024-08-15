@@ -1,0 +1,31 @@
+.tier_modal_container {
+  width: 75vw !important;
+}
+
+.tier_modal_offer_container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.tier_modal_catch_phrase {
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .tier_modal_container {
+    width: initial !important;
+  }
+
+  .tier_modal_catch_phrase {
+    font-size: 1.5rem;
+  }
+
+  .tier_modal_offer_container {
+    flex-wrap: wrap;
+  }
+}

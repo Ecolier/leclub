@@ -1,0 +1,43 @@
+version: "3.8"
+services:
+
+  scrapper:
+    entrypoint: ["./start.sh"]
+    build: .
+    deploy:
+      replicas: 4
+
+  dashboard:
+    entrypoint: ["./dashboard.sh"]
+    build: .
+    ports:
+      - "5555:5555"
+
+  redis:
+    image: "bitnami/redis:latest"
+    environment:
+      ALLOW_EMPTY_PASSWORD: 'yes'
+
+  mongodb:
+    image: 'bitnami/mongodb:latest'
+    ports:
+      - "27017:27017"
+    environment:
+      ALLOW_EMPTY_PASSWORD: 'yes'
+    volumes:
+      - '~/db:/bitnami'
+
+  tor:
+    image: "evait/multitor:latest"
+
+  scrapoxy:
+    image: "fabienvauchelles/scrapoxy"
+    ports:
+      - "8889:8889"
+      - "8888:8888"
+    environment:
+      COMMANDER_PASSWORD: 'scrapoxy_123_@_password'
+      INSTANCE_SCALING_MIN: 10
+      INSTANCE_SCALING_MAX: 10
+      PROVIDERS_AWSEC2_ACCESSKEYID: ''
+      PROVIDERS_AWSEC2_SECRETACCESSKEY: ''

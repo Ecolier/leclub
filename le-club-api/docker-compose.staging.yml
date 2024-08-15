@@ -1,0 +1,22 @@
+version: "3.9"
+
+x-aws-cluster: le-club
+x-aws-vpc: vpc-f1af5599
+
+services:
+
+  app:
+    env_file: .env.staging
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost/.well-known/apollo/server-health || exit 1"]
+    image: 052941667971.dkr.ecr.eu-west-3.amazonaws.com/le-club-api:latest
+    command: start:prod
+    ports: 
+      - "80:80"
+
+  database:
+    image: mongo:5.0.2
+    env_file: .env.staging
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${LCB_API_DATABASE_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${LCB_API_DATABASE_USERNAME}

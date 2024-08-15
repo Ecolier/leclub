@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,eAAe,AAAA,IAAK,CAAA,WAAW,EAAE;EAC/B,aAAa,EAAE,iBAAiB;CACjC;;AAED,AAAA,aAAa,CAAC;EACZ,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,GAAG;CACb",
+    "sources": [
+        "../Upload/notification.scss"
+    ],
+    "names": [],
+    "file": "notification.css"
+}

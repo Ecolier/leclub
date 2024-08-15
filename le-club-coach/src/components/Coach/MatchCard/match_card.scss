@@ -1,0 +1,53 @@
+.match_card {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.match_card_teams_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.match_card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.match_card_floating_type {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 10;
+}
+
+.match_floating_left_bar_container {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.match_card_score {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  margin: 0 20px;
+}
+
+.match_card_team {
+  width: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .match_card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

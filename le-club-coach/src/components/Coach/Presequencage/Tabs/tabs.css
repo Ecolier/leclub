@@ -1,0 +1,9 @@
+.ant-tabs-bar {
+  margin-top: 0px !important;
+}
+.ant-tabs-bottom {
+  margin-top: 0px !important;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

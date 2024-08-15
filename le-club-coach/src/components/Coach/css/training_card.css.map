@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,IAAI;CACb;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,cAAc,CAAC;IACb,MAAM,EAAE,OAAO;GAChB",
+    "sources": [
+        "../MyTrainings/training_card.scss"
+    ],
+    "names": [],
+    "file": "training_card.css"
+}

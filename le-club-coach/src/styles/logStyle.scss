@@ -1,0 +1,85 @@
+/* lOGIN */
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.connaitre-button {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+
+  Button {
+    font-size:0.7vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    height: auto;
+  }
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CHANGE */
+.ChangePasswordForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  z-index: 3;
+}
+
+.send-button {
+  margin-top: 25px;
+  width: 100%;
+  background: black;
+  color: #a6aeb5;
+  padding: 10px 0;
+  height: auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  &:hover {
+    background: #2CC1EB;
+    color: black;
+    border-color: #2CC1EB;
+  }
+}
+
+/* Accaount */
+.activePasswordForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.baseInformation {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.middleIcons {
+  position: relative;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+    overflow: hidden;
+}

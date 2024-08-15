@@ -1,0 +1,68 @@
+.my_matches_page_container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+}
+
+.my_matches_container {
+  display: flex;
+  overflow-y: scroll;
+}
+
+.my_matches_header_title {
+  display: flex;
+  align-content: center;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.my_matches_header_title h2 {
+  margin-right: 0.5rem;
+}
+
+.my_matches_button_container {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+  align-items: flex-end;
+}
+
+.my_matches_button_container select {
+  margin: 0.5rem;
+}
+
+.my_matches_select_container {
+  margin-right: 1rem;
+}
+
+.my_matches_card_container {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 425px) {
+  .my_matches_container {
+    flex-direction: column;
+    overflow-y: initial;
+  }
+  .my_matches_container > div:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+  .my_matches_button_container {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .my_matches_select_container {
+    margin-bottom: 1.5rem;
+    margin-right: initial;
+  }
+  .my_matches_select_container .ant-select {
+    width: 100%;
+  }
+  .my_matches_card_container {
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=my_matches.css.map */

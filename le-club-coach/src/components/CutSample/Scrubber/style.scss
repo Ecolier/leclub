@@ -1,0 +1,136 @@
+.b-cut-scrubbing {
+  background: rgb(24, 24, 24);
+  display: flex;
+  align-items: flex-end;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  user-select: none;
+}
+
+.b-cut-scrubbing-inner {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.b-cut-scrubbing-range {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  height: 100%;
+  background: linear-gradient(-90deg, rgba(#EA178C, .2), transparent 60%), linear-gradient(90deg, rgba(#EA178C, .2), transparent 60%);
+  border: 2px solid #EA178C;
+}
+
+.b-cut-scrubbing-range-controller {
+  position: relative;
+  height: 100%;
+  width: 10px;
+  cursor: ew-resize;
+}
+
+.b-cut-scrubbing-floating-time-current,
+.b-cut-scrubbing-floating-time-start,
+.b-cut-scrubbing-floating-time-end {
+  position: absolute;
+  left: 50%;
+  z-index: 10;
+  transform: translate(-50%, -10%);
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  padding: 0px 6px;
+  font-size: 11px;
+  color: white;
+  background: #EA178C;
+}
+
+.b-cut-scrubbing-floating-time-current {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: darken(#2CC1EB, 10%);
+  border-radius: 3px;
+}
+
+.b-cut-scrubbing-range-move {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: ew-resize;
+}
+
+.b-cut-scrubbing-time-controller {
+  position: absolute;
+  z-index: 10;
+  left: 20%;
+  width: 4px;
+  height: 100%;
+  background: #2CC1EB;
+  cursor: ew-resize;
+}
+
+
+.b-cut-scrubbing-range-drag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: grab;
+}
+
+
+.b-cut-infos {
+  display: flex;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  margin-top: -5px;
+
+  padding: 10px;
+
+  background: white;
+  z-index: 10;
+}
+
+.b-cut-scrubbing:hover {
+  .b-cut-infos {
+    display: inherit;
+    min-width: 160px;
+  }
+}
+
+.b-cut-scrubbing-ticks {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.b-cut-scrubbing-tick {
+  position: absolute;
+  width: 2px;
+  height: 33%;
+  background: rgba(white, .1);
+}
+
+.b-cut-scrubbing-tick--main {
+  height: 66%;
+  background: rgba(white, .2);
+}

@@ -1,0 +1,32 @@
+FROM node:14.15-alpine3.13 as builder
+
+ENV HOME /usr/home/leclub
+WORKDIR $HOME
+
+ARG GITHUB_TOKEN
+
+RUN apk add --update \
+  curl python3 make g++ \
+  git \
+  && rm -rf /var/cache/apk/*
+
+RUN git config --global url.https://${GITHUB_TOKEN}:@github.com/.insteadOf https://github.com/
+
+# copy the tarballs
+COPY ["yarn-offline-mirror", "$HOME/yarn-offline-mirror/"]
+
+# copy files needed for the install
+COPY ["package.json", "yarn.lock", ".yarnrc", "$HOME/"]
+
+# copy the rest.. could be further broken up into multiple instructions
+# for cache optimisation
+COPY . $HOME
+
+# the offline flag will mean that an error is raised if any
+# module needs to be fetched remotely. It can be removed to allow
+# yarn to fetch any missing modules if that was to happen.
+RUN yarn --offline --frozen-lockfile --link-duplicates
+
+#RUN yarn build:ssr
+
+ENTRYPOINT ["yarn"]

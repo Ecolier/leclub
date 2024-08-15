@@ -1,0 +1,17 @@
+version: "3.9"
+
+x-aws-cluster: le-club
+x-aws-vpc: vpc-f1af5599
+
+services:
+
+  web:
+    image: 052941667971.dkr.ecr.eu-west-3.amazonaws.com/le-club-home:latest
+    environment:
+      REACT_APP_IDP_BASE_URL: https://accounts.leclub.football
+      REACT_APP_IDP_REDIRECT_URI: https://leclub.football
+    healthcheck: 
+      test: ["CMD-SHELL", "curl -f http://localhost || exit 1"]
+    command: serve:prod
+    ports: 
+      - "80:80"

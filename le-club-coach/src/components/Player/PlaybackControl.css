@@ -1,0 +1,9 @@
+.player-playback-control select {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.player-playback-control select option {
+  background: #333;
+}

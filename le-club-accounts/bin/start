@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const {getEnvironment} = require('@leclub/shared');
+const debug = require('debug')('le-club:accounts');
+
+const NODE_ENV = getEnvironment('NODE_ENV', 'production');
+const createApplication = require(NODE_ENV === 'development' ? '../src/api' : '../src/api').default;
+
+const LCB_ACCOUNTS_APP_PORT = getEnvironment('LCB_ACCOUNTS_APP_PORT', 80);
+
+createApplication({ environment: NODE_ENV }).then((app) => {
+  app.listen(LCB_ACCOUNTS_APP_PORT, () => {
+    debug(`Le Club Accounts Service listening on http://0.0.0.0:${LCB_ACCOUNTS_APP_PORT}.`);
+  });
+});
